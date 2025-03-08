@@ -22,7 +22,7 @@ class ReservationRepository {
   async findById(id) {
     const sql = `
         SELECT
-            id
+            *
         FROM
             reservation
         WHERE
